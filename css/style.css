@@ -23,7 +23,8 @@ body{
 
 
 .item {
-    width: 100px;
+    /* flex basis */
+    flex-basis: 100px;
     height: 100px;
     background-color: #254de4;
     color: #fff;
@@ -33,19 +34,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 
-.item:nth-last-of-type(1){
-     order: 2;
+.item:nth-of-type(1){
+   /*   order: 2; */
+   flex-grow: 1;
 }
-.item:nth-last-of-type(2){
-   order: 1;
+.item:nth-of-type(2){
+   /* order: 1; */
+   /* flex-basis: 400px; */
+   flex-grow: 1;
 }
-.item:nth-last-of-type(3){
-    order: 3;
+.item:nth-of-type(3){
+    /* order: 3; */
+   /*  flex-basis: 200px; */
+   flex-grow: 1;
 }
 
 
