@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 89, 255, 0.39);
+}
+
+.flex-container{
+    height: 400px;
+    display: flex;
+    background-color:  #f4f4f4;
+
+    
+    /* Alignment proprieties */
+    justify-content: space-around;
+
+    /* Aligment in the cross axis */
+    align-items:end;
+}
+
+
+
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #254de4;
+    color: #fff;
+    margin: 10px;
+}
+
+
