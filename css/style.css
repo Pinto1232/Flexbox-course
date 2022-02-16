@@ -9,15 +9,16 @@ body{
 }
 
 .flex-container{
-    height: 400px;
+    /* height: 500px; */
     display: flex;
     background-color:  #f4f4f4;
-
-    /* Alignment proprieties */
-    justify-content: space-around;
+    /* will work only in the main axes */
+    justify-content: start;
 
     /* Aligment in the cross axis */
-    align-items:end;
+    align-items:center;
+
+    flex-wrap: wrap;
 }
 
 
@@ -27,17 +28,24 @@ body{
     background-color: #254de4;
     color: #fff;
     margin: 10px;
+
+    /* To align content inside of the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 
 .item:nth-last-of-type(1){
-       align-self: start;
+     
 }
 .item:nth-last-of-type(2){
-     align-self: center;
+   ;
 }
 .item:nth-last-of-type(3){
-    align-self: flex-end;
+    
 }
 
 
