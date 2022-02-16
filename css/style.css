@@ -23,16 +23,16 @@ body{
       This propriety below is very important
       to make item responsives
     */
-   /*  flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 
 .item {
     /* flex basis is like width */
-    /*   flex-basis: 300px; */
+    /* flex-basis: 300px; */
     /* flex-grow: 1; */
 
-    flex: 1 0 100px;
+    flex: 1;
     height: 100px;
     background-color: #254de4;
     color: #fff;
