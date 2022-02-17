@@ -66,7 +66,6 @@ img {
 
 .nav ul{
     display: flex;
-
 }
 
 .nav ul li a{
@@ -74,6 +73,10 @@ img {
 }
 
 .header{
+    background: linear-gradient(0deg, rgb(11 81 204 / 54%), rgb(11 81 204 / 54%)), url('../img/home-banner.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #0151cc;
     color: #fff;
     min-height: 400px;
@@ -128,7 +131,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     flex-wrap: wrap;
 }
 
@@ -155,8 +157,53 @@ img {
 }
 
 
+
+.container-one{
+    width: 11000px;
+}
+
+.container .boxTwo{
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a51cc;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+
+.boxTwo img{
+    max-width: 100%;
+    justify-content: center;
+}
+
+
+.primary{
+    display: block;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    border: none;
+    max-width: 100%;
+}
+
+.primary:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+
 .footer {
     background-color: #3474e6;
+    padding-bottom: 4em;
     height: 100%;
 }
 
@@ -175,6 +222,10 @@ img {
     font-size: 16px;
 }
 
+.links li a{
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
 
 .links h3{
     color: #fff;
@@ -185,10 +236,7 @@ img {
 
 
 
-.container-one{
-    width: 11000px;
-    display: flex;
-}
+
 
 
 
@@ -226,6 +274,14 @@ img {
         flex-direction: column;
         text-align: center;
         align-items: center;
+    }
+
+    .header img {
+        max-width: 100%;
+    }
+
+    .container .boxTwo{
+        text-align: center;
     }
 }
 
